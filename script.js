@@ -1,7 +1,10 @@
 
+
+
 // Ask the user to enter his/her name as input.
 
 let Name =prompt("Name" , "Enter your name here")
+
 
 
 
@@ -18,6 +21,8 @@ if ((gender !== "male") && (gender !== "female") ){
 }
 
 
+
+
 // Ask the user to enter his/her age as input and alert the user if the age is less than or equal to zero
 
 let age = prompt("Age", "please enter your age!")
@@ -29,15 +34,19 @@ if (age <=0) {
 }
 
 
+
+
+
+
 // Ask the user to confirm if he wants to skip the welcoming message.
 
 let welcomMessage = confirm("do you want see the welcoming message ? if no please press cancle")
 
-if ((confirm = true) && (gender = "male")) {
+if ((confirm = true) && (gender === "male")) 
     alert("welcome mr \n " + Name );
-}
 
-else if ((confirm = true) && (gender = "female"))  {
+
+else if ((confirm = true) && (gender === "female"))  
     alert("welcome ms \n " + Name );
-}
+
 
